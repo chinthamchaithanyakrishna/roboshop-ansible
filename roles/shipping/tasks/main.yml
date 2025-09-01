@@ -33,7 +33,7 @@
 
 - name: Schema Container
   community.docker.docker_container:
-    name: shipping-schema-{{item}}
+    name: shipping-schema-{{ item }}
     image: public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load
     loop:
       - db/app-user.sql
