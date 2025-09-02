@@ -1,5 +1,3 @@
-component: cart
-
 lvm_sizes:
   - {lvm: "RootVG-homeVol", size: 1 }
   - {lvm: "RootVG-varVol", size: 12 }
